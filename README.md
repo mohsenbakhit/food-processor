@@ -1,27 +1,35 @@
-# FoodProcessor
+# Food Picker
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
+This project is a simple Angular application designed to help users pick what to eat by providing them with random food suggestions.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Random Food Picker**: Users can click a button to get a random food suggestion.
 
-## Code scaffolding
+## Installation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To run this project locally, follow these steps:
 
-## Build
+1. Clone this repository to your local machine.
+2. Navigate to the project directory in your terminal.
+3. Run `npm install` to install the project dependencies.
+4. Run `npm start` to start the development server.
+5. Open your browser and navigate to `http://localhost:4200` to view the application.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Usage
 
-## Running unit tests
+Once the application is running, you can start using it immediately. Here's how:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Open the browser. That's all.
 
-## Running end-to-end tests
+## Technologies Used
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- **Angular**: The frontend framework used to build the application.
+- **TheMealDB API**: The free API for accessing different meals.
+## Contributing
 
-## Further help
+Contributions to this project are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request on GitHub.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
