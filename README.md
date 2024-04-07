@@ -1,6 +1,7 @@
 # Food Picker
 
 This project is a simple Angular application designed to help users pick what to eat by providing them with random food suggestions.
+It was made as part of MLH's Global Hack Week: API.
 
 ## Features
 
