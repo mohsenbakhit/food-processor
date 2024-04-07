@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background-color: #fff8ea; /* Soft, creamy background */
+}
+
+.random-meal-container {
+    font-family: "Philosopher", sans-serif;
+    display: flex;          /* Arrange image and content side-by-side */
+    flex-direction: column; /* Or 'row' if you prefer a horizontal layout */
+    align-items: center;    /* Center elements within the container */
+    gap: 20px;              /* Spacing between the image and title */
+    text-align: center;     /* Center the meal title */
+    padding: 20px;
+    color: #5c3d2e;
+}
+
+.random-meal-container img {
+    max-width: 250px;       /* Control image size */
+    height: auto;           /* Maintain aspect ratio */
+    border-radius: 8px;     /* Slightly rounded corners */
+}
+
+/* Optional: Styling for loading and error states */
+.loading-error-message {
+    color: #777;            /* Dimmed text color */
+}

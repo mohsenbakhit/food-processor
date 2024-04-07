@@ -6,16 +6,17 @@ import { DishFetch, Meal } from './dishFetch.service';
   standalone: true,
   imports: [],
   template: `
-  <h1>find your next meal</h1>
   @if (meal) {
-    <div>
+    <div class="random-meal-container">
+      <h1>Find Your Next Meal</h1>
       <h2>{{ meal.meals[0].strMeal }}</h2>
       <img [src]="meal.meals[0].strMealThumb" alt="Image of meal">
       <a [href]="meal.meals[0].strYoutube"><p>Here is the recipe<p></a>
     </div>
     }
     @else {
-    <div>
+    <div class="loading-error-message">
+      <h1>Find Your Next Meal</h1>
       <p>Loading...</p>
       <p>Error: {{ error }}</p> 
     </div> 
